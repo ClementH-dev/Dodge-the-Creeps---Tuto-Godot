@@ -19,7 +19,8 @@
 ## 3. Ce qui a cassé / ce qui a été pénible
 
 | Problème | Cause racine | Comment je l'ai résolu |
-| Le joueurs se déplaçais que d'un px lors d'un déplacement `up` | Erreur de fonction `is_action_just_pressed` | Remplacement par `is_action_pressed` |
+|---|---|---|
+| Le joueur se déplaçait que d'un px lors d'un déplacement `up` | Erreur de fonction `is_action_just_pressed` | Remplacement par `is_action_pressed` |
 
 ## 4. Ce que je n'ai pas compris
 - Revoir les notion de delta et de PI pour les orientations et calculs de vitesse
